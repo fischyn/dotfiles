@@ -18,6 +18,9 @@ history = 5000
 [font]
 size = 14
 
+[colors.vi_mode_cursor]
+cursor = '#ffc0cb'
+
 [colors.primary]
 background = '#2d353b'
 foreground = '#d3c6aa'
