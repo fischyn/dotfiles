@@ -6,7 +6,8 @@ ipc_socket = true
 [window]
 decorations = "Full"
 blur = true
-startup_mode = "Windowed"
+startup_mode = "Maximized"
+padding = { x = 20, y = 20 }
 opacity = 1
 
 [cursor]
