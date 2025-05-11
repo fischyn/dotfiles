@@ -9,6 +9,9 @@ blur = true
 startup_mode = "Windowed"
 opacity = 1
 
+[cursor]
+vi_mode_style = { shape = "Block", blinking = "Off" }
+
 [scrolling]
 history = 5000
 
