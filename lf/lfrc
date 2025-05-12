@@ -125,11 +125,11 @@ cmd on-cd &{{
 }}
 
 # Start shell in the last directory lf visited
-cmd on-cd &{{
-    printf '%s\n' "$PWD" >> ~/.local/share/lf/dir_history
-}}
+#cmd on-cd &{{
+#    printf '%s\n' "$PWD" >> ~/.local/share/lf/dir_history
+#}}
 
-on-cd
+#on-cd
 
 map . set hidden!
 
