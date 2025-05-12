@@ -19,6 +19,12 @@ history = 5000
 [font]
 size = 14
 
+[keyboard]
+bindings = [
+{ key = "ArrowRight", mods = "Control", action = "IncreaseFontSize" },
+{ key = "ArrowLeft", mods = "Control", action = "DecreaseFontSize" },
+]
+
 [colors.vi_mode_cursor]
 cursor = '#ffc0cb'
 
