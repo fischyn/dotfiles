@@ -124,6 +124,13 @@ cmd on-cd &{{
     lf -remote "send $id set promptfmt \"$fmt\""
 }}
 
+# Start shell in the last directory lf visited
+cmd on-cd &{{
+    printf '%s\n' "$PWD" >> ~/.local/share/lf/dir_history
+}}
+
+on-cd
+
 map . set hidden!
 
 map dd trash
