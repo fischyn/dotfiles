@@ -157,21 +157,15 @@ cmd on-cd &{{
 # Custom map functions 
 map . set hidden!
 map dd trash
-map u $trashy restore -r 0
-map dr $trashy restore
-map de $trashy empty --all
 map p paste
 map x cut
 map y copy
 map <enter> open
-map R reload
 map mf mkfile
 map md mkdir
-map bg setwallpaper
 map C clear
 map gc cd ~/.config
 map gD cd ~/Documents
 map gd cd ~/Downloads
 map gW cd ~/Workspace
 map gp cd ~/Pictures
-map gt cd ~/.local/share/Trash/files
