@@ -26,6 +26,12 @@ set cursorpreviewfmt "\033[7;2m"
 # show hidden files and directories
 set hidden
 
+# show icons
+set icons
+
+# ignor case while searching?
+set ignorecase
+
 # use enter for shell commands
 map <enter> shell
 
