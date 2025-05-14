@@ -1,4 +1,9 @@
-export EDITOR="vim"
+#Launching Hyprland with uwsm
+if uwsm check may-start; then
+    exec uwsm start hyprland.desktop
+fi
+
+export EDITOR="code"
 export BROWSER="firefox"
 
 export XDG_CONFIG_HOME="$HOME/.config"
