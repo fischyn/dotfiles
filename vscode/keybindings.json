@@ -1,27 +1,22 @@
 [
-  // Focus Sidebar
-  {
-    "key": "ctrl+shift+e",
-    "command": "workbench.action.focusSideBar"
-  },
   // Focus Editor
   {
-    "key": "ctrl+e",
-    "command": "workbench.action.focusActiveEditorGroup"
+    "command": "workbench.action.focusActiveEditorGroup",
+    "key": "ctrl+e"
   },
   // Focus Terminal (active terminal)
   {
-    "key": "ctrl+t",
-    "command": "workbench.action.terminal.focus"
+    "command": "workbench.action.terminal.focus",
+    "key": "ctrl+t"
   },
   // Focus Specific Terminal (Terminal 1)
   {
-    "key": "ctrl+alt+1",
-    "command": "workbench.action.terminal.focusAtIndex1"
+    "command": "workbench.action.terminal.focusAtIndex1",
+    "key": "ctrl+alt+1"
   },
   // Focus Specific Terminal (Terminal 2)
   {
-    "key": "ctrl+alt+2",
-    "command": "workbench.action.terminal.focusAtIndex2"
+    "command": "workbench.action.terminal.focusAtIndex2",
+    "key": "ctrl+alt+2"
   }
 ]
