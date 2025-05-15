@@ -1,0 +1,52 @@
+{
+    "accessibility.signals.lineHasError": {
+        "announcement": "off",
+        "sound": "off"
+    },
+    "accessibility.signals.lineHasFoldedArea": {
+        "announcement": "off",
+        "sound": "off"
+    },
+    "accessibility.signals.lineHasInlineSuggestion": {
+        "sound": "off"
+    },
+    "accessibility.signals.lineHasWarning": {
+        "announcement": "off",
+        "sound": "off"
+    },
+    "accessibility.signals.positionHasError": {
+        "announcement": "off",
+        "sound": "off"
+    },
+    "accessibility.signals.positionHasWarning": {
+        "announcement": "off",
+        "sound": "off"
+    },
+    "editor.accessibilityPageSize": 150,
+    "editor.accessibilitySupport": "on",
+    "editor.codeActionsOnSave": {
+        "source.sort.json": "explicit",
+        "source.sortImports": "explicit"
+    },
+    "editor.cursorStyle": "block",
+    "editor.fontSize": 16.5,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "explorer.compactFolders": false,
+    "files.autoSave": "off",
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.fontSize": 12,
+    "window.zoomLevel": 2,
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.editor.pinnedTabSizing": "compact",
+    "workbench.editor.showTabs": "single",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.statusBar.visible": true
+}
