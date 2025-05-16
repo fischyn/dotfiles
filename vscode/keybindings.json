@@ -1,13 +1,13 @@
 [
+  // Open Go test file
+  {
+    "command": "go.toggle.test.file",
+    "key": "ctrl+shift+b"
+  },
   // Focus Editor
   {
     "command": "workbench.action.focusActiveEditorGroup",
     "key": "ctrl+e"
-  },
-  // Focus Terminal (active terminal)
-  {
-    "command": "workbench.action.terminal.focus",
-    "key": "ctrl+t"
   },
   // Focus Specific Terminal (Terminal 1)
   {

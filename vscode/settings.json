@@ -47,13 +47,16 @@
     "go.inlayHints.rangeVariableTypes": true,
     "gopls": {
         "formatting.gofumpt": true,
-        "ui.semanticTokens": true
+        "ui.diagnostic.diagnosticsTrigger": "Save",
+        "ui.semanticTokens": true,
+        "verboseOutput": true
     },
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.fontSize": 12,
+    "window.newWindowProfile": null,
     "window.zoomLevel": 2,
     "workbench.colorTheme": "Default Dark Modern",
     "workbench.editor.pinnedTabSizing": "compact",
